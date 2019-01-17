@@ -1,9 +1,43 @@
+.bouttonsHeader{
+    margin-left: 3%;
+}
+.boxLogin{
+    display: block;
+}
 .dark{
     background-color: black;
 }
 .grey{
     background-color: grey;
 }
+.lightGrey{
+    background-color: lightgray;
+}
 .hyperlien{
     color: azure;
 }
+.hyperlienFooter{
+    color: azure;
+}
+.titre{
+    margin-left: 25%;
+}
+#copyright{
+    color: darkgrey;
+    text-align: center;
+}
+#background{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+}
+#boutonMagasin{
+    margin-left: 39%;
+}
+#bouttonTelecharger{
+    margin-left: 22%;
+}
+#listeAide{
+     width: 50%;
+     margin-left: 25%;
+ }
