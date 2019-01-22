@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion | Minecraft</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<header>
+    <div class="dark">
+        <a href="index.html" id="bouttonRetour"><-RETOUR À L'ACCUEIL</a>
+        <a href="index.html">
+            <input type="image" src="img/minecraft.png"  id="minecraftLogoLogin">
+        </a>
+        <a href="connexion.html" id="hyperlienLogin">Connexion</a>
+        <a href="aide.html" id="hyperlienAide">Aide</a>
+    </div>
+</header>
+
+<body>
+    <form method="get" >
+        <div class="lightGrey">
+            <h1 id="titreLogin">Se connecter</h1>
+            <p id="texteLogin">Utilisez votre compte Mojang pour vous connecter à minecraft.net</p>
+            <input type="text" id="user" name="user" class="boxLogin" value="" onchange="username()" placeholder="xxxxxxx@xxxxx.com">
+            <input type="password" id="password" name="password" class="boxLogin" value="" onchange="password()" placeholder="Mot de passe">
+            <input type="radio" name="sexe" value="homme"> Homme <br>
+            <input type="radio" name="sexe" value="femme"> Femme <br>
+            <input type="date" name="date">
+            <button id="bouttonConnexion" type="submit">CONNEXION</button>
+            <button id="bouttonAnnuler" type="reset">Annuler</button>
+        </div>
+    </form>
+<script src="js/traitement.js"></script>
+</body>
+<footer>
+    <div id="darkFooter">
+        <img src="img/Mojang.png" id="imageMojang">
+        <img src="img/MicrosoftStudios.png" id="imageMicrosoft">
+        <img src="img/esrb.png" id="imageEsrb">
+        <p id="copyright">Mojang © 2009-2019. "Minecraft" est une marque déposée de Mojang Synergies AB</p>
+    </div>
+    <div id="greyFooter">
+        <a href="" class="hyperlienFooter">Français(Canada)</a>
+        <a href="" class="hyperlienFooter">Politique de confidentialité et cookies</a>
+        <a href="" class="hyperlienFooter">Conditions générales</a>
+        <a href="" class="hyperlienFooter">Marques déposées</a>
+        <a href="" class="hyperlienFooter">À propos de nos publicités</a>
+        <img src="img/Microsoft.png" id="imageMicrosoftV2">
+    </div>
+</footer>
+</html>
