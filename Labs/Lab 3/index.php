@@ -13,19 +13,18 @@
     </header>
 
     <body>
-    <?php
-    echo '<form method="post">';
-    echo '<h1>CHING CHONG 2000</h1>';
-    echo '<label for="username">Username</label><br>';
-    echo '<input type="text" name="username"><br>';
-    echo '<label for="password">Password</label><br>';
-    echo '<input type="password" name="password">';
-    echo '';
-    echo '<button type="button">Inscription</button>';
-    echo '<a href="accueil.php"><button type="submit">Se connecter</button></a> ';
-    echo '';
-    echo '</form>';
-    ?>
+
+    <form method="post">
+    <h1>CHING CHONG 2000</h1>
+    <label for="username">Username</label><br>
+    <input type="text" name="username"><br>
+    <label for="password">Password</label><br>
+    <input type="password" name="password">
+    <button type="button">Inscription</button>
+        <button id="bouttonConnexion" type="submit" onclick="location.href='accueil.php'";>Se connecter</button>
+
+    </form>
+
     </body>
 
     <footer>
