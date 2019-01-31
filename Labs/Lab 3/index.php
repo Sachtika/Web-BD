@@ -22,7 +22,7 @@
     echo '<input type="password" name="password">';
     echo '';
     echo '<button type="button">Inscription</button>';
-    echo '<button type="submit">Se connecter</button>';
+    echo '<a href="accueil.php"><button type="submit">Se connecter</button></a> ';
     echo '';
     echo '</form>';
     ?>
@@ -34,5 +34,5 @@
         echo '<p>Contactez-nous: tresa1831788@etu.cegepjonquiere.ca</p>';
         ?>
     </footer>
-
+<script type="text/javascript" src="traitement.js">
 </html>
